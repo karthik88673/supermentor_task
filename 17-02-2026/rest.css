@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #fff5e6;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 2px solid brown;
+}
+
+h2 {
+    color: darkred;
+    border-bottom: 2px solid gray;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

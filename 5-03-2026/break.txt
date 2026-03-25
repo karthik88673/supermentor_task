@@ -1,0 +1,48 @@
+Selected Website : Amazon Home Page
+
+Amazon website can be divided into small reusable components.
+Each section of the website works as an individual component.
+
+Components List
+App
+ ├── Header
+ │    ├── Logo
+ │    ├── SearchBar
+ │    ├── Menu
+ │
+ ├── Navbar
+ │    ├── Links
+ │    ├── Categories
+ │
+ ├── Banner
+ │
+ ├── ProductSection
+ │    ├── ProductCard
+ │    ├── ProductCard
+ │    ├── ProductCard
+ │
+ ├── Sidebar
+ │
+ └── Footer
+Sketch Structure
+-------------------------------------------------
+| Header (Logo | Search | Menu)                 |
+-------------------------------------------------
+| Navbar (Categories Links)                     |
+-------------------------------------------------
+| Banner Image                                  |
+-------------------------------------------------
+| Sidebar | Product | Product | Product         |
+|         | Product | Product | Product         |
+-------------------------------------------------
+| Footer                                         |
+-------------------------------------------------
+Component Explanation
+Component	Description
+Header	Contains logo, search bar, menu
+Navbar	Contains category links
+Banner	Big offer image
+Sidebar	Filters / options
+ProductCard	Single product box
+ProductSection	Group of products
+Footer	Bottom links

@@ -1,0 +1,68 @@
+Client – Server Architecture (Diagram)
+
+You can draw like this in notebook:
+
+   Client (Browser)
+        |
+        |  Request (HTTP)
+        v
+   Internet / Network
+        |
+        v
+   Server (Website Server)
+        |
+        | Response (HTML, CSS, JS)
+        v
+   Client Screen (Web Page)
+
+
+           +---------------------------+
+           |        CLIENT             |
+           |  (Browser / Device)       |
+           |  Laptop / Mobile          |
+           +---------------------------+
+                      |
+                      |  Request (HTTP/HTTPS)
+                      v
+                +-------------+
+                |  INTERNET   |
+                |  (Network)  |
+                +-------------+
+                      |
+                      v
+           +---------------------------+
+           |          SERVER           |
+           |  Web Server               |
+           |  Database Server          |
+           +---------------------------+
+                      |
+                      |  Response (HTML, CSS, JS)
+                      v
+           +---------------------------+
+           |        CLIENT             |
+           |   (Webpage Displayed)     |
+           +---------------------------+
+
+You can also draw:
+
+User → Browser → Internet → Server → Internet → Browser → User
+Explanation – Client Server Architecture
+
+Client-server architecture is a network model where the client requests data and the server provides data.
+
+Client → User computer / mobile / browser
+Server → Computer that stores website files
+Internet → Network connecting client and server
+
+Example:
+When we open Google, our browser sends request to Google server, and server sends webpage.
+
+What happens when you open a website
+User enters website URL in browser
+Browser sends request to server using HTTP / HTTPS
+DNS finds server IP address
+Request goes through internet to server
+Server processes request
+Server sends response (HTML, CSS, JS, images)
+Browser receives response
+Browser displays website on screen

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: lightblue;
+    padding: 20px;
+}
+
+.text {
+    width: 40%;
+}
+
+.text h1 {
+    font-size: 40px;
+    color: darkblue;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+.image img {
+    width: 300px;
+}
+
+/* Responsive for mobile */
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .image img {
+        width: 200px;
+    }
+
+}
